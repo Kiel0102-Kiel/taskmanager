@@ -23,6 +23,18 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        if (app()->environment('local') && config('database.default') === 'sqlite') {
+            $databasePath = config('database.connections.sqlite.database');
+
+            if ($databasePath !== ':memory:' && ! file_exists($databasePath)) {
+                $databaseDirectory = dirname($databasePath);
+
+                if (! is_dir($databaseDirectory)) {
+                    mkdir($databaseDirectory, 0755, true);
+                }
+
+                touch($databasePath);
+            }
+        }
     }
 }

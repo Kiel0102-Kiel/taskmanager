@@ -1,7 +1,7 @@
 # Taskday - Personal Task Manager
 
 Project Code: WST21-PM-2026-SF  
-Student Name: Ezekiel P. Sarigumba
+Student Name: Ezekiel P. Sarigumba,
 Course & Year: BSIT-2nd Year
 Database Used: SQLite
 

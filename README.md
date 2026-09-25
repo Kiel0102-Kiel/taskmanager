@@ -1,8 +1,8 @@
 # Taskday - Personal Task Manager
 
 Project Code: WST21-PM-2026-SF  
-Student Name: [Your Name]  
-Course & Year: [Your Course & Year]  
+Student Name: Ezekiel P. Sarigumba
+Course & Year: BSIT-2nd Year
 Database Used: SQLite
 
 Taskday is a simple Laravel personal task manager for capturing, organizing, and completing everyday work. It uses the Laravel flow of routes, controllers, models, migrations, and Blade views.

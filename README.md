@@ -26,27 +26,21 @@ Taskday is a simple Laravel personal task manager for capturing, organizing, and
    composer install
    ```
 
-2. Install frontend dependencies:
-
-   ```bash
-   npm install
-   ```
-
-3. Create the environment file and generate the application key:
+2. Create the environment file and generate the application key:
 
    ```bash
    copy .env.example .env
    php artisan key:generate
    ```
 
-4. Create the local SQLite database file and run the migrations:
+3. Create the local SQLite database file and run the migrations:
 
    ```bash
    type nul > database\database.sqlite
    php artisan migrate
    ```
 
-5. Start the application and Vite:
+4. Start the application and Vite:
 
    ```bash
    php artisan serve
